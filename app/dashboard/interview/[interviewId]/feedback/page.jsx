@@ -8,7 +8,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "E:/mockclone/ai_interview_mocker/components/ui/collapsible.jsx"
+} from "../../../../../components/ui/collapsible.jsx"
 import { ChevronsUpDown } from 'lucide-react'
 import { Button } from '../../../../../components/ui/button'
 import { useRouter } from 'next/navigation'

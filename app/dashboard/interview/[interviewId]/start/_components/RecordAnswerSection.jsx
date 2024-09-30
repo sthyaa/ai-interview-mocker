@@ -6,7 +6,7 @@ import { Button } from "../../../../../../components/ui/button";
 import useSpeechToText from "react-hook-speech-to-text";
 import { Mic } from "lucide-react";
 import { toast } from "sonner";
-import { chatSession } from "E:/mockclone/ai_interview_mocker/utils/GeminiAIModal.js";
+import { chatSession } from "../../../../../../utils/GeminiAIModal.js";
 import { db} from "../../../../../../utils/db";
 import { UserAnswer } from "../../../../../../utils/schema";
 import { useUser } from "@clerk/nextjs";

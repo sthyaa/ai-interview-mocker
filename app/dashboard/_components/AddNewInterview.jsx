@@ -6,7 +6,7 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "E:/mockclone/ai_interview_mocker/components/ui/dialog.jsx";
+} from '../../../components/ui/dialog';
 import { Button } from '../../../components/ui/button';
 import { Input } from '../../../components/ui/input';
 import { Textarea } from '../../../components/ui/textarea';
@@ -124,7 +124,7 @@ function AddNewInterview() {
                   <Button type="submit" disabled={loading}>
                     {loading ?
                       <>
-                        <LoaderCircle className='animate-spin' /> 'Generating from AI'
+                        <LoaderCircle className='animate-spin' /> Generating from AI
                       </> : 'Start Interview'}
                   </Button>
                 </div>
